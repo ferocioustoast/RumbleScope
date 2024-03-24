@@ -29,3 +29,7 @@ _Note: The bar is not lined up perfectly with the graph in the video_
 Here is another example gif showing the application receiving rumble by connecting directly to [XToys](https://xtoys.app/).
 
 ![example gif 2](https://raw.githubusercontent.com/ferocioustoast/RumbleScope/master/imgs/animation2.gif)
+
+Here is an example gif showing the application receiving rumble directly from ELDEN RING.
+
+![example gif 3](https://raw.githubusercontent.com/ferocioustoast/RumbleScope/master/imgs/animation3.gif)
