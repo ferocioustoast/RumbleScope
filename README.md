@@ -4,7 +4,7 @@ Visualize controller rumble without a physical controller.
 ## Features:
 - Emulates an Xbox 360 controller using vgamepad.
 - Displays real-time progress bars for small and large motor rumble intensities.
-- Button to press 'start' four times on the virtual controller. _may be needed for some programs to see the controller (click button then switch to the program inteded to recieve start buttons)_
+- Button to press 'start' four times on the virtual controller. _Some programs may need to see input from the controller. (Click the button, then switch to the program intended to receive start buttons.)_
 
 ## Requirements:
 - Windows operating system
@@ -13,16 +13,16 @@ Visualize controller rumble without a physical controller.
 - vgamepad library (install with [pip install vgamepad])
 
 ## Usage:
-1. Download and install [ViGEmBus](https://github.com/nefarius/ViGEmBus/releases/latest) driver. _this is the driver for the virtual controller._
+1. Download and install the [ViGEmBus](https://github.com/nefarius/ViGEmBus/releases/latest) driver. _This is the driver for the virtual controller._
 2. Download [RumbleScope](https://github.com/ferocioustoast/RumbleScope/releases/latest).
 3. Run rumble_scope.exe.
 4. Connect the controller to the program you are testing.
-5. Observe rumble values as they are triggered
+5. Observe rumble values as they are triggered. _Sometimes the program sending rumble needs to be the active window._
 
 ## Examples:
 Here is an example gif showing the application receiving rumble by connecting to [MultiFunPlayer](https://github.com/Yoooi0/MultiFunPlayer), using [Intiface](https://intiface.com/central/).
 
-_note: the bar is not lined up perfectly with the graph in the video_
+_Note: The bar is not lined up perfectly with the graph in the video_
 
 ![example gif](https://raw.githubusercontent.com/ferocioustoast/RumbleScope/master/imgs/animation.gif)
 
