@@ -30,6 +30,6 @@ Here is another example gif showing the application receiving rumble by connecti
 
 ![example gif 2](https://raw.githubusercontent.com/ferocioustoast/RumbleScope/master/imgs/animation2.gif)
 
-Here is an example gif showing the application receiving rumble directly from ELDEN RING.
+Here is an example gif showing the application pressing 'start' and receiving rumble directly from ELDEN RING.
 
 ![example gif 3](https://raw.githubusercontent.com/ferocioustoast/RumbleScope/master/imgs/animation3.gif)
