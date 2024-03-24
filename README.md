@@ -8,12 +8,10 @@ Visualize controller rumble without a physical controller.
 
 ## Requirements:
 - Windows operating system
-- Python 3.6 or newer
-- [ViGEmBus driver](https://github.com/nefarius/ViGEmBus/releases/latest)
-- vgamepad library, _Only if using the python version._ (install with [pip install vgamepad])
+- [ViGEmBus driver](https://github.com/nefarius/ViGEmBus/releases/latest) _This is the driver for the virtual controller._
 
 ## Usage:
-1. Download and install the [ViGEmBus](https://github.com/nefarius/ViGEmBus/releases/latest) driver. _This is the driver for the virtual controller._
+1. Download and install the [ViGEmBus](https://github.com/nefarius/ViGEmBus/releases/latest) driver.
 2. Download [RumbleScope](https://github.com/ferocioustoast/RumbleScope/releases/latest).
 3. Run rumble_scope.exe.
 4. Connect the controller to the program you are testing.
