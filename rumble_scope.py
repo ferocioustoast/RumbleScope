@@ -1,7 +1,18 @@
-import vgamepad as vg
 import tkinter as tk
+import tkinter.messagebox
 from tkinter import ttk
 import time
+import os
+import sys
+try:
+    import vgamepad as vg
+except Exception:
+    if tk.messagebox.askquestion(
+        title='ViGEmBus driver not found!',
+        message='This program will not work without the ViGEmBus driver!\nWould you like to open the driver download page?'
+    ) == 'yes':
+        os.startfile("https://github.com/nefarius/ViGEmBus/releases/latest")
+    sys.exit(1)
 
 root = tk.Tk()
 root.title("Rumble Scope")
