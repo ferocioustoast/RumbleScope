@@ -7,7 +7,7 @@ Visualize controller rumble without a physical controller.
 - Button to press 'start' four times on the virtual controller. _Some programs may need to see input from the controller. (Click the button, then switch to the program intended to receive start buttons.)_
 
 ## Requirements:
-- Windows 10/11 (x86, amd64 and ARM64) operating system
+- Windows 10/11 operating system
 - [ViGEmBus driver](https://github.com/nefarius/ViGEmBus/releases/latest) _This is the driver for the virtual controller._
 
 ## Usage:
